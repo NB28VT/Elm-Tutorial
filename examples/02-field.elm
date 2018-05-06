@@ -1,10 +1,11 @@
 import Html exposing (Html, div, input, text)
+-- Does this expose all attributes?
 import Html.Attributes exposing (..)
+-- See DOM events?
 import Html.Events exposing (onInput)
 import String
 
-
-
+-- This is a record:
 main =
   Html.beginnerProgram
     { model = model
